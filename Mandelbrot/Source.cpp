@@ -86,7 +86,7 @@ void GenerateOnFullConsoleSize()
 
 #else
 
-    std::cerr << "This function can be used only on Windows!\n";
+    std::cerr << "This function can only be used on Windows!\n";
 
 #endif
 }
